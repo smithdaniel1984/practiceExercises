@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="praticeTest.praticeTest2.mainTestSteps">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="selectGame"/>
+          <include name="gameSelect"/>
+          <include name="picScrollRight"/>
+        </methods>
+      </class> <!-- praticeTest.praticeTest2.mainTestSteps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
