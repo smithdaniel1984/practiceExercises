@@ -1,0 +1,2 @@
+# practiceExercises
+Selenium exercises done
