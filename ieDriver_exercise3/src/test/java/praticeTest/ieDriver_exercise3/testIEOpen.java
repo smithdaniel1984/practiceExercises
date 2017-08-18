@@ -1,7 +1,8 @@
 package praticeTest.ieDriver_exercise3;
-
 import java.util.Random;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -20,6 +21,7 @@ public class testIEOpen {
 	String Username = "tomsmith";
 	String Password = "SuperSecretPassword!";
 	setupTest objects;
+	Point point;
 	
 	Random random = new Random();
 	int selection = random.nextInt(3);
@@ -29,7 +31,14 @@ public class testIEOpen {
 	public void chromesetUp()
 	{
 		System.setProperty("webdriver.chrome.driver", ChromebrowserPath);
-		driver = new ChromeDriver();	
+		driver = new ChromeDriver();
+		System.out.println("Size of window: " + driver.manage().window().getSize());
+		System.out.println("Position of window: " + driver.manage().window().getPosition());
+		
+		//Positioning the page on the right side of the screen
+		driver.manage().window().setPosition(new Point(960, 0));
+		driver.manage().window().setSize(new Dimension(960, 1040));
+		
 	}
 	@Test(priority = 0)
 	public void navigate_to_gamestop()
@@ -53,5 +62,16 @@ public class testIEOpen {
 		objects = new setupTest(driver);
 		
 		objects.assertSteps(Username, Password);
+	}
+	@Test(priority = 3)
+	public void logout()
+	{
+		objects = new setupTest(driver);
+		objects.logout();
+	}
+	@AfterTest
+	public void closeBrowser()
+	{
+		driver.quit();
 	}
 }

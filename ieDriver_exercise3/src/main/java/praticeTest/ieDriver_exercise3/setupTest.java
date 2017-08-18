@@ -15,7 +15,7 @@ import org.testng.Assert;
 public class setupTest {
 	
 	WebDriver driver;
-	String statement = "tconway@earthlink.net";
+	String statement = "http://www.jsmith.com";
 	String successfulText = "You logged into a secure area!";
 		
 	By searchBar = By.id("searchtext");
@@ -31,6 +31,8 @@ public class setupTest {
 	By password = By.name("password");
 	By loginBtn = By.xpath("//*[@id='login']/button/i");
 	By subTitle = By.xpath("//*[@id='flash']");
+	By logoutBtn = By.linkText("Logout");
+	By loginSubTitle = By.linkText("Login Page");
 	
 
 	public setupTest(WebDriver driver)
@@ -45,7 +47,7 @@ public class setupTest {
 	public int w3Radios(int selection)
 	{
 		System.out.println("Random number is: " + selection);
-		
+			
 		if(selection == 0)
 		{
 			driver.findElement(maleRadio).click();
@@ -71,33 +73,68 @@ public class setupTest {
 		System.out.println("number of rows: " + rows.size());
 		System.out.println("number of columns: " + listcolumns.size());
 		
-		for(int i = 1; i <= rows.size()/2-1; i++)
+		//first column first row text print out
+		WebElement firstRow = driver.findElement(By.xpath("//*[@id='table1']/tbody/tr["+1+"]/td["+1+"]"));
+		System.out.println("First row, first column says: " + firstRow.getText());
+		
+		//Print out all text from first row
+		System.out.print("entire row say: ");
+		
+		for(int r = 1; r <= listcolumns.size()/2-1; r++)
+		{
+			WebElement entireRow = driver.findElement(By.xpath("//*[@id='table1']/tbody/tr["+1+"]/td["+r+"]"));
+			System.out.print(" " + entireRow.getText() + " - ");
+		}
+		
+		for(int i = 1; i < rows.size()/2-1; i++)
 		{
 			for(int j = 1; j <= 6; j++)
 			{
 				String output =(driver.findElement(By.xpath("//*[@id='table1']/tbody/tr["+i+"]/td["+j+"]")).getText());
 				if(output.equals(statement))
 				{
-					System.out.println("Row: " + i + " Column: " + j);
+					System.out.println("\n" + statement + " found on Row: " + i + " Column: " + j);
 				}
 			}
 		}
 	}
 	public void assertSteps(String Username, String Password)
 	{
+		//Go to the herokuapp page
 		driver.navigate().to("https://the-internet.herokuapp.com/");
 		
+		//Click on the link for assert section
 		driver.findElement(assertLink).click();
 		
+		//Set web elements for username and password
 		WebElement name = driver.findElement(username);
 		WebElement pass = driver.findElement(password);
 		
+		//enter username and password
 		name.sendKeys(Username);
 		pass.sendKeys(Password);
 		
+		//Click the login button
 		driver.findElement(loginBtn).click();
 		
+		//Get the subtitle of the page / print the subtitle
 		WebElement subtitle = driver.findElement(subTitle);
-		String subTitleText = subtitle.getText();
+		String compare = subtitle.getAttribute("class");
+				
+		//assert statement / check to see if the sub title is saying logged in
+		Assert.assertEquals(compare, "flash success", "Assert did not pass");
+	}
+	public void logout()
+	{
+		driver.findElement(logoutBtn).click();
+		
+		if(driver.findElement(loginBtn).isDisplayed())
+		{
+			System.out.println("Back on the login page");
+		}
+		else
+		{
+			System.out.println("Not logged out of the page!");
+		}
 	}
 }
