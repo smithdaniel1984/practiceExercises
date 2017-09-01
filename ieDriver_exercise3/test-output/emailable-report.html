@@ -31,37 +31,122 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">52.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">31.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">praticeTest.ieDriver_exercise3.amazonPage_Test</td><td><a href="#m1"><b>selecting_an_item</b>  </a></td><td class="numi">1</td><td>1503076769918</td><td class="numi">19466</td></tr>
+<tr class="failedodd"><td rowspan="4">praticeTest.ieDriver_exercise3.amazonPage_Test</td><td><a href="#m1"><b>add_to_cart</b>  </a></td><td class="numi">1</td><td>1504270866977</td><td class="numi">27</td></tr><tr class="failedodd"><td><a href="#m2"><b>click_on_gamePic</b>  </a></td><td class="numi">1</td><td>1504270856465</td><td class="numi">10506</td></tr><tr class="failedodd"><td><a href="#m3"><b>selecting_an_item</b>  </a></td><td class="numi">1</td><td>1504270855808</td><td class="numi">648</td></tr><tr class="failedodd"><td><a href="#m4"><b>view_shopping_cart</b>  </a></td><td class="numi">1</td><td>1504270867006</td><td class="numi">1135</td></tr>
 <tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="6">praticeTest.ieDriver_exercise3.amazonPage_Test</td><td><a href="#m2"><b>navigateToAmazon</b>  </a></td><td class="numi">1</td><td>1503076753169</td><td class="numi">5226</td></tr><tr class="passedodd"><td><a href="#m3"><b>search_for_item</b>  </a></td><td class="numi">1</td><td>1503076758398</td><td class="numi">11519</td></tr><tr class="passedodd"><td><a href="#m4"><b>click_on_gamePic</b>  </a></td><td class="numi">1</td><td>1503076789387</td><td class="numi">188</td></tr><tr class="passedodd"><td><a href="#m5"><b>add_to_cart</b>  </a></td><td class="numi">1</td><td>1503076789575</td><td class="numi">1314</td></tr><tr class="passedodd"><td><a href="#m6"><b>view_shopping_cart</b>  </a></td><td class="numi">1</td><td>1503076790890</td><td class="numi">1243</td></tr><tr class="passedodd"><td><a href="#m7"><b>return_home</b>  </a></td><td class="numi">1</td><td>1503076792133</td><td class="numi">10168</td></tr>
+<tr class="passedodd"><td rowspan="3">praticeTest.ieDriver_exercise3.amazonPage_Test</td><td><a href="#m5"><b>navigateToAmazon</b>  </a></td><td class="numi">1</td><td>1504270844529</td><td class="numi">3858</td></tr><tr class="passedodd"><td><a href="#m6"><b>return_home</b>  </a></td><td class="numi">1</td><td>1504270868145</td><td class="numi">2166</td></tr><tr class="passedodd"><td><a href="#m7"><b>search_for_item</b>  </a></td><td class="numi">1</td><td>1504270848389</td><td class="numi">7418</td></tr>
 </table>
 <h1>Default test</h1>
 <h2 id="m1">praticeTest.ieDriver_exercise3.amazonPage_Test:selecting_an_item</h2>
 <div style="padding-left:3em">
-<p>For input string: &quot;$ 59 96&quot;</p>
-java.lang.NumberFormatException.forInputString(Unknown Source)
-<br/>at java.lang.Integer.parseInt(Unknown Source)
-<br/>at java.lang.Integer.parseInt(Unknown Source)
-<br/>at praticeTest.ieDriver_exercise3.amazonPage_Elements.getPrice(amazonPage_Elements.java:61)
-<br/>at praticeTest.ieDriver_exercise3.amazonPage_Test.selecting_an_item(amazonPage_Test.java:51)
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Assassin&apos;s Creed Origins - Xbox One&quot;}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 598 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Daniel&apos;, ip: &apos;192.168.1.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+*** Element info: {Using=link text, value=Assassin&apos;s Creed Origins - Xbox One}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Elements.clickNext_itemFind(amazonPage_Elements.java:45)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Test.selecting_an_item(amazonPage_Test.java:48)
 <br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">praticeTest.ieDriver_exercise3.amazonPage_Test:search_for_item</h2>
+<h2 id="m2">praticeTest.ieDriver_exercise3.amazonPage_Test:add_to_cart</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-to-cart-button&quot;}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Daniel&apos;, ip: &apos;192.168.1.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+*** Element info: {Using=id, value=add-to-cart-button}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Elements.addToCart(amazonPage_Elements.java:88)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Test.add_to_cart(amazonPage_Test.java:70)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m3">praticeTest.ieDriver_exercise3.amazonPage_Test:view_shopping_cart</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;activeCartViewForm&apos;]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span&quot;}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Daniel&apos;, ip: &apos;192.168.1.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+*** Element info: {Using=xpath, value=//*[@id=&apos;activeCartViewForm&apos;]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Elements.viewCart(amazonPage_Elements.java:109)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Test.view_shopping_cart(amazonPage_Test.java:76)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">praticeTest.ieDriver_exercise3.amazonPage_Test:return_home</h2>
+<h2 id="m4">praticeTest.ieDriver_exercise3.amazonPage_Test:click_on_gamePic</h2>
+<div style="padding-left:3em">
+<p>Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (cc0145ebb1a37c5b10ebb9c79f2c0016)] -&gt; class name: a-list-item]
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Daniel&apos;, ip: &apos;192.168.1.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Elements.gamePic_click(amazonPage_Elements.java:82)
+<br/>at praticeTest.ieDriver_exercise3.amazonPage_Test.click_on_gamePic(amazonPage_Test.java:64)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">praticeTest.ieDriver_exercise3.amazonPage_Test:add_to_cart</h2>
+<h2 id="m5">praticeTest.ieDriver_exercise3.amazonPage_Test:return_home</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m6">praticeTest.ieDriver_exercise3.amazonPage_Test:navigateToAmazon</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">praticeTest.ieDriver_exercise3.amazonPage_Test:click_on_gamePic</h2>
+<h2 id="m7">praticeTest.ieDriver_exercise3.amazonPage_Test:search_for_item</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

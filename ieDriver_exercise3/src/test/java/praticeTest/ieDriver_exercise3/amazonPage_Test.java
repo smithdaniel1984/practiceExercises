@@ -13,8 +13,8 @@ public class amazonPage_Test {
 	WebDriver driver;
 	amazonPage_Elements page;
 	
-	String IEbrowserPath = "C:\\Users\\daniel.smith\\Desktop\\selenium_training\\IEDriverServer.exe";
-	String ChromebrowserPath = "C:\\Users\\daniel.smith\\Desktop\\selenium_training\\chromedriver.exe";
+	String IEbrowserPath = "C:\\Users\\Smith\\git\\practiceExercises\\ieDriver_exercise3\\Drivers\\MicrosoftWebDriver.exe";
+	String ChromebrowserPath = "C:\\Users\\Smith\\git\\practiceExercises\\ieDriver_exercise3\\Drivers\\chromedriver.exe";
 	String url = "http://www.amazon.com";
 	String item = "xbox one";
 	
@@ -24,9 +24,10 @@ public class amazonPage_Test {
 		System.setProperty("webdriver.chrome.driver", ChromebrowserPath);
 		driver = new ChromeDriver();
 		
+		driver.manage().window().maximize();
 		//Positioning the page on the right side of the screen
-		driver.manage().window().setPosition(new Point(960, 0));
-		driver.manage().window().setSize(new Dimension(960, 1040));
+		//driver.manage().window().setPosition(new Point(960, 0));
+		//driver.manage().window().setSize(new Dimension(960, 1040));
 	}
 	@Test(priority = 0)
 	public void navigateToAmazon()

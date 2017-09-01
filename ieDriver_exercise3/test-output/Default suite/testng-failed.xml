@@ -6,7 +6,10 @@
       <class name="praticeTest.ieDriver_exercise3.amazonPage_Test">
         <methods>
           <include name="selecting_an_item"/>
+          <include name="view_shopping_cart"/>
           <include name="testSetup"/>
+          <include name="click_on_gamePic"/>
+          <include name="add_to_cart"/>
         </methods>
       </class> <!-- praticeTest.ieDriver_exercise3.amazonPage_Test -->
     </classes>
