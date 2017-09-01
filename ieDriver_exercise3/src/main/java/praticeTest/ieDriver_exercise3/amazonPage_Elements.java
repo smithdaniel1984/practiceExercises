@@ -17,7 +17,7 @@ public class amazonPage_Elements {
 	By searchBar = By.id("twotabsearchtextbox");
 	By searchIcon = By.className("nav-input");
 	By nextPage = By.id("pagnNextString");
-	By asCreed = By.linkText("Assassin's Creed Origins - Xbox One");
+	By asCreed = By.linkText("Forza Motorsport 7 – Standard Edition -  Xbox One");
 	By priceLbl = By.id("newPrice");
 	By homeIcon = By.xpath("//*[@id='nav-logo']/a[1]/span[1]");
 	By charasel = By.className("gw-critical-content");

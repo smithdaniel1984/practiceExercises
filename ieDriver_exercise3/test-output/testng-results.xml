@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31685" started-at="2017-09-01T13:00:38Z" finished-at="2017-09-01T13:01:10Z">
+  <suite name="Default suite" duration-ms="28812" started-at="2017-09-01T13:57:44Z" finished-at="2017-09-01T13:58:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31685" started-at="2017-09-01T13:00:38Z" finished-at="2017-09-01T13:01:10Z">
+    <test name="Default test" duration-ms="28812" started-at="2017-09-01T13:57:44Z" finished-at="2017-09-01T13:58:12Z">
       <class name="praticeTest.ieDriver_exercise3.amazonPage_Test">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="testSetup" is-config="true" duration-ms="5877" started-at="2017-09-01T09:00:38Z" finished-at="2017-09-01T09:00:44Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="testSetup" is-config="true" duration-ms="4262" started-at="2017-09-01T09:57:44Z" finished-at="2017-09-01T09:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="navigateToAmazon()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="navigateToAmazon" duration-ms="3858" started-at="2017-09-01T09:00:44Z" finished-at="2017-09-01T09:00:48Z">
+        <test-method status="PASS" signature="navigateToAmazon()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="navigateToAmazon" duration-ms="4119" started-at="2017-09-01T09:57:48Z" finished-at="2017-09-01T09:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAmazon -->
-        <test-method status="PASS" signature="search_for_item()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="search_for_item" duration-ms="7418" started-at="2017-09-01T09:00:48Z" finished-at="2017-09-01T09:00:55Z">
+        <test-method status="PASS" signature="search_for_item()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="search_for_item" duration-ms="4437" started-at="2017-09-01T09:57:52Z" finished-at="2017-09-01T09:57:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_for_item -->
-        <test-method status="FAIL" signature="selecting_an_item()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="selecting_an_item" duration-ms="648" started-at="2017-09-01T09:00:55Z" finished-at="2017-09-01T09:00:56Z">
+        <test-method status="FAIL" signature="selecting_an_item()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="selecting_an_item" duration-ms="2315" started-at="2017-09-01T09:57:56Z" finished-at="2017-09-01T09:57:59Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Assassin's Creed Origins - Xbox One"}
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Forza Motorsport 7 – Standard Edition -  Xbox One"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 598 milliseconds
+Command duration or timeout: 350 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
-*** Element info: {Using=link text, value=Assassin's Creed Origins - Xbox One}]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
+*** Element info: {Using=link text, value=Forza Motorsport 7 – Standard Edition -  Xbox One}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Assassin's Creed Origins - Xbox One"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forza Motorsport 7 – Standard Edition -  Xbox One"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 598 milliseconds
+Command duration or timeout: 350 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
-*** Element info: {Using=link text, value=Assassin's Creed Origins - Xbox One}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
+*** Element info: {Using=link text, value=Forza Motorsport 7 – Standard Edition -  Xbox One}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -58,7 +58,7 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at praticeTest.ieDriver_exercise3.amazonPage_Elements.clickNext_itemFind(amazonPage_Elements.java:45)
-	at praticeTest.ieDriver_exercise3.amazonPage_Test.selecting_an_item(amazonPage_Test.java:48)
+	at praticeTest.ieDriver_exercise3.amazonPage_Test.selecting_an_item(amazonPage_Test.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -89,27 +89,27 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selecting_an_item -->
-        <test-method status="FAIL" signature="click_on_gamePic()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="click_on_gamePic" duration-ms="10506" started-at="2017-09-01T09:00:56Z" finished-at="2017-09-01T09:01:06Z">
+        <test-method status="FAIL" signature="click_on_gamePic()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="click_on_gamePic" duration-ms="10516" started-at="2017-09-01T09:57:59Z" finished-at="2017-09-01T09:58:09Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (cc0145ebb1a37c5b10ebb9c79f2c0016)] -> class name: a-list-item]
+              <![CDATA[Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (ae9f357953a9b725e26231d745da5a1c)] -> class name: a-list-item]
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (cc0145ebb1a37c5b10ebb9c79f2c0016)] -> class name: a-list-item]
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (ae9f357953a9b725e26231d745da5a1c)] -> class name: a-list-item]
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at praticeTest.ieDriver_exercise3.amazonPage_Elements.gamePic_click(amazonPage_Elements.java:82)
-	at praticeTest.ieDriver_exercise3.amazonPage_Test.click_on_gamePic(amazonPage_Test.java:64)
+	at praticeTest.ieDriver_exercise3.amazonPage_Test.click_on_gamePic(amazonPage_Test.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -140,32 +140,32 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_gamePic -->
-        <test-method status="FAIL" signature="add_to_cart()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="add_to_cart" duration-ms="27" started-at="2017-09-01T09:01:06Z" finished-at="2017-09-01T09:01:07Z">
+        <test-method status="FAIL" signature="add_to_cart()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="add_to_cart" duration-ms="42" started-at="2017-09-01T09:58:09Z" finished-at="2017-09-01T09:58:09Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"add-to-cart-button"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 38 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
 *** Element info: {Using=id, value=add-to-cart-button}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"add-to-cart-button"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 38 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
 *** Element info: {Using=id, value=add-to-cart-button}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -179,7 +179,7 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
 	at org.openqa.selenium.By$ById.findElement(By.java:214)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at praticeTest.ieDriver_exercise3.amazonPage_Elements.addToCart(amazonPage_Elements.java:88)
-	at praticeTest.ieDriver_exercise3.amazonPage_Test.add_to_cart(amazonPage_Test.java:70)
+	at praticeTest.ieDriver_exercise3.amazonPage_Test.add_to_cart(amazonPage_Test.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -210,32 +210,32 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_to_cart -->
-        <test-method status="FAIL" signature="view_shopping_cart()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="view_shopping_cart" duration-ms="1135" started-at="2017-09-01T09:01:07Z" finished-at="2017-09-01T09:01:08Z">
+        <test-method status="FAIL" signature="view_shopping_cart()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="view_shopping_cart" duration-ms="1098" started-at="2017-09-01T09:58:09Z" finished-at="2017-09-01T09:58:10Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='activeCartViewForm']/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 46 milliseconds
+Command duration or timeout: 157 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
 *** Element info: {Using=xpath, value=//*[@id='activeCartViewForm']/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='activeCartViewForm']/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 46 milliseconds
+Command duration or timeout: 157 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Daniel', ip: '192.168.1.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir16380_12810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Smith\AppData\Local\Temp\scoped_dir8248_27235}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ae9f357953a9b725e26231d745da5a1c
 *** Element info: {Using=xpath, value=//*[@id='activeCartViewForm']/div[2]/div/div[4]/div/div[1]/div/div/div[2]/ul/li[1]/span/a/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -249,7 +249,7 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at praticeTest.ieDriver_exercise3.amazonPage_Elements.viewCart(amazonPage_Elements.java:109)
-	at praticeTest.ieDriver_exercise3.amazonPage_Test.view_shopping_cart(amazonPage_Test.java:76)
+	at praticeTest.ieDriver_exercise3.amazonPage_Test.view_shopping_cart(amazonPage_Test.java:77)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -280,7 +280,7 @@ Session ID: cc0145ebb1a37c5b10ebb9c79f2c0016
           <reporter-output>
           </reporter-output>
         </test-method> <!-- view_shopping_cart -->
-        <test-method status="PASS" signature="return_home()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="return_home" duration-ms="2166" started-at="2017-09-01T09:01:08Z" finished-at="2017-09-01T09:01:10Z">
+        <test-method status="PASS" signature="return_home()[pri:0, instance:praticeTest.ieDriver_exercise3.amazonPage_Test@1593948d]" name="return_home" duration-ms="1985" started-at="2017-09-01T09:58:10Z" finished-at="2017-09-01T09:58:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- return_home -->
